@@ -19,7 +19,8 @@
   "labels":{
     "ner":[
       "BUILDING",
-      "DIRECTION"
+      "DIRECTION",
+      "FUNCTION"
     ]
   },
   "pipeline":[
