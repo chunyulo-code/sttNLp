@@ -1,0 +1,4 @@
+"C:\Program Files\Epic Games\UE_4.26\Engine\Binaries\ThirdParty\Python3\Win64\python.exe" -m pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+
+
+.whl's location = [C:\Program Files\Epic Games\UE_4.26\Engine\Binaries\ThirdParty\Python3\Win64\Lib\ensurepip\_bundled ]

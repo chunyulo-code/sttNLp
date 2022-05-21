@@ -1,1 +1,1 @@
-{"dir": "east", "bui": "B", "func": "screenshot"}
+{"dir": "", "bui": "", "func": "screenshot"}

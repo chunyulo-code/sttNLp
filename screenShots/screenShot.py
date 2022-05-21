@@ -9,3 +9,8 @@ img = ImageGrab.grab()
 imgName = current_time + ".png"
 # 儲存檔案
 img.save("./screenShots/"+imgName)
+
+
+
+
+
