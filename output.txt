@@ -1,1 +1,1 @@
-{"dir": "", "bui": "", "func": "screenshot"}
+{"dir": "", "bui": "", "func": "stop BBC"}
