@@ -11,7 +11,7 @@ import json
 
 r = speech_recognition.Recognizer()
 nlp = spacy.load("D:\sttNlp/ner")
-results = {'dir':'', 'bui':'', 'func':''}
+results = {'dir':'', 'floor': '', 'bui':'', 'func':''}
 resultsArr = []
 
 with  speech_recognition.Microphone() as source:
@@ -36,6 +36,8 @@ for ent in doc.ents:
     print(ent.label_)
     if ent.label_ == 'DIRECTION':
         results['dir'] = ent.text
+    elif ent.label_ == 'FLOOR':
+        results['floor'] = ent.text
     elif ent.label_ == 'BUILDING':
         results['bui'] = ent.text
     elif ent.label_ == 'FUNCTION':
